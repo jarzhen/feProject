@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <SelectTest />
+    <TableDetail />
   </div>
 </template>
 
 <script>
-import SelectTest from '@/views/SelectTest.vue';
+import TableDetail from '@/views/TableDetail.vue';
 
 export default {
   name: 'App',
   components: {
-    SelectTest
+    TableDetail
   }
 };
 </script>
