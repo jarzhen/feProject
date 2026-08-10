@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld />
+    <SelectTest />
   </div>
 </template>
 
 <script>
-import HelloWorld from '@/views/HelloWorld.vue';
+import SelectTest from '@/views/SelectTest.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SelectTest
   }
 };
 </script>
