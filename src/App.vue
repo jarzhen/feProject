@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <TableDetail />
+    <TableMultiSelect />
   </div>
 </template>
 
 <script>
-import TableDetail from '@/views/TableDetail.vue';
+import TableMultiSelect from '@/views/TableMultiSelect.vue';
 
 export default {
   name: 'App',
   components: {
-    TableDetail
+    TableMultiSelect
   }
 };
 </script>
