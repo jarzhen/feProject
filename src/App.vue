@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <TableMultiSelect />
+    <ScrollLockTable />
   </div>
 </template>
 
 <script>
-import TableMultiSelect from '@/views/TableMultiSelect.vue';
+import ScrollLockTable from '@/views/ScrollLockTable.vue';
 
 export default {
   name: 'App',
   components: {
-    TableMultiSelect
+    ScrollLockTable
   }
 };
 </script>
