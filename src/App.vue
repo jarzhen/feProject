@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <ScrollLockTable />
+    <FormCascade />
   </div>
 </template>
 
 <script>
-import ScrollLockTable from '@/views/ScrollLockTable.vue';
+import FormCascade from '@/views/FormCascade.vue';
 
 export default {
   name: 'App',
   components: {
-    ScrollLockTable
+    FormCascade
   }
 };
 </script>
