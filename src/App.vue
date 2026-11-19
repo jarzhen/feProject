@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <FormCascade />
+    <DbTypeTest />
   </div>
 </template>
 
 <script>
-import FormCascade from '@/views/FormCascade.vue';
+import DbTypeTest from '@/views/DbTypeTest/index.vue';
 
 export default {
   name: 'App',
   components: {
-    FormCascade
+    DbTypeTest
   }
 };
 </script>
