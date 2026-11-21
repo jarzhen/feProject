@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <DbTypeTest />
+    <TableSelectAll />
   </div>
 </template>
 
 <script>
-import DbTypeTest from '@/views/DbTypeTest/index.vue';
+import TableSelectAll from '@/views/TableSelectAll.vue';
 
 export default {
   name: 'App',
   components: {
-    DbTypeTest
+    TableSelectAll
   }
 };
 </script>
