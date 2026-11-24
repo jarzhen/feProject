@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <TableSelectAll />
+    <PdfPreview />
   </div>
 </template>
 
 <script>
-import TableSelectAll from '@/views/TableSelectAll.vue';
+import PdfPreview from '@/views/PdfPreview/index.vue';
 
 export default {
   name: 'App',
   components: {
-    TableSelectAll
+    PdfPreview
   }
 };
 </script>
