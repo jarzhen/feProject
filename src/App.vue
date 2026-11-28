@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <PdfPreview />
+    <FormLabelWidth />
   </div>
 </template>
 
 <script>
-import PdfPreview from '@/views/PdfPreview/index.vue';
+import FormLabelWidth from '@/views/FormLabelWidth.vue';
 
 export default {
   name: 'App',
   components: {
-    PdfPreview
+    FormLabelWidth
   }
 };
 </script>
